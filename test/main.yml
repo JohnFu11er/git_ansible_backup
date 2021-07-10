@@ -11,4 +11,4 @@
 
       - name: show time
         debug:
-          var: time.stdout
+          var: time.start.split(".")[0]
