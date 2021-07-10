@@ -1,1 +1,1 @@
-["R1 : True", "Version 12.5 : False", "SSH version 2 : True"]
+['R1 : True', 'Version 12.5 : False', 'SSH version 2 : True']
