@@ -6,5 +6,9 @@
 
     tasks:
       - name: TASK 1
-        template:
-          src:
+        command: date
+        register: time
+
+      - name: show time
+        debug:
+          var: time.stdout
