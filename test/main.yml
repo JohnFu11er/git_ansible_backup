@@ -9,6 +9,9 @@
         command: date
         register: time
 
+      - set_fact:
+          time: "{{ time.start.split('.')[0] }}"
+
       - name: show time
         debug:
-          var: time.start.split(".")[0]
+          var: time
