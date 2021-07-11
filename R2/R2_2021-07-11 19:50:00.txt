@@ -1,0 +1,7 @@
+Device: R2 -- 192.168.222.140
+LAST VERIFIED: 2021-07-11 19:50:00
+
+VERIFICATION OUTPUT:
+R1 : False
+Version 12.5 : False
+SSH version 2 : False
